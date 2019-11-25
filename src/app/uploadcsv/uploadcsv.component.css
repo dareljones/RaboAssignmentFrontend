@@ -1,0 +1,30 @@
+    .file-chooser {
+        padding: 10px;
+        margin: 5%;
+        border: 1px solid;
+        text-align: center;
+        width:35%;  
+    }
+    
+  .result-table {
+    margin-left: 33%;
+    border: 1px solid #73AD21;
+    width: 35%;
+  
+  }
+
+  #search {
+    margin-left: 33%;
+    width: 35%; 
+    font-size: 16px;
+    padding: 6px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+  
+  }
+
+  .btn{
+    margin-left: 33%;
+    background:#3d4147;
+    color:#ddd;
+  }

@@ -1,0 +1,49 @@
+<br><br>
+<div class="file-chooser btn">
+
+  <input type="file" #fileImportInput name="File Upload" id="txtFileUpload" (change)="fileChangeListener($event)"
+         accept=".csv"/>
+
+</div>
+
+
+<form>
+  <div class="form-group">
+        <input type="text" id="search" class="form-control" name="searchString" placeholder="filter by issue count..."[(ngModel)]="searchString"/>
+  </div>
+</form>
+
+
+
+
+<div id="visiblity" class="result-table table table-striped table-hover table-responsive-lg table-borderless table-dark">
+  <table id="dataTable">
+    <thead>
+    <tr>
+      <th>First Name</th>
+      <th>Sur Name</th>
+      <th>Issue Count</th>
+      <th>Date of Birth</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let csvData of csvRecords | filter : 'issueCount' : searchString;let i = index;">
+
+      <td>
+        <span>{{csvData.firstName}}</span>
+      </td>
+      <td>
+        <span>{{csvData.surName}}</span>
+      </td>
+      <td>
+        <span>{{csvData.issueCount}}</span>
+      </td>
+      <td>
+        <span>{{csvData.DOB}}</span>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+
+
+</div>

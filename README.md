@@ -1,27 +1,58 @@
-# RaboAssignment
+# Rabobank Statement Displayer
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.19.
+This application displays the contents of a CSV file in web browser and allows to filter specific data based on issue count.
 
-## Development server
+## Getting Started
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Download the source code as zip file from
 
-## Code scaffolding
+	* https://drive.google.com/
+	
+or clone from
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+	* https://github.com
 
-## Build
+### Prerequisites
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Things required to work properly
 
-## Running unit tests
+* Node JS-
+  https://nodejs.org/en/download/
+    
+* Angular-
+  https://angular.io/
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Installation
 
-## Running end-to-end tests
+Open windows command prompt
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+```
+	- Execute the command "npm install -g @angular/cli" to install Angular globally
+	- Press "Y" to enable Angular routing
+```
 
-## Further help
+The default dependencies will be automatically downloaded. 
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
+## Running the Project
+
+To run the project
+
+```
+	- Navigate to project directory in windows command prompt
+	- Execute the command "npm add" to install additional dependencies(if any)
+	- Execute the command "ng serve"
+	- Open any web browser and navigate to "localhost:4200"
+	- Click upload file to choose a CSV file
+```
+
+
+## Output
+
+- The contents of the CSV file will be displayed as a table.
+- Enter a number in the search box to filter data based on the given issue count.
+ 
+
+
+
