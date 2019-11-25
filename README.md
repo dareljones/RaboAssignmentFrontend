@@ -4,13 +4,9 @@ This application displays the contents of a CSV file in web browser and allows t
 
 ## Getting Started
 
-Download the source code as zip file from
+Clone or Download the source code from
 
-	* https://drive.google.com/
-	
-or clone from
-
-	* https://github.com
+	* https://github.com/dareljones/RaboAssignmentFrontend
 
 ### Prerequisites
 
