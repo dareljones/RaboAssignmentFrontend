@@ -4,7 +4,7 @@ import { UploadcsvComponent } from './uploadcsv/uploadcsv.component';
 
 
 const routes: Routes = [
-  { path: '',component: UploadcsvComponent},
+  { path: 'displaystatement',component: UploadcsvComponent},
 
 ];
 

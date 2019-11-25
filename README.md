@@ -39,8 +39,9 @@ To run the project
 	- Navigate to project directory in windows command prompt
 	- Execute the command "npm add" to install additional dependencies(if any)
 	- Execute the command "ng serve"
-	- Open any web browser and navigate to "localhost:4200"
+	- Open any web browser and navigate to "localhost:4200/displaystatement"
 	- Click upload file to choose a CSV file
+		-sample in "src/assets/"
 ```
 
 
